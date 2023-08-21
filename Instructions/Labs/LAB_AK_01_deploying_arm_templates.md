@@ -1,8 +1,8 @@
 ---
 lab:
-    title: 'Lab: Deploying Azure Resource Manager templates'
-    type: 'Answer Key'
-    module: 'Module 1: Exploring Azure Resource Manager'
+    title: 'Lab: TBD'
+    type: 'Bonus Content'
+    module: 'Module 1: TBD'
 ---
 
 # Lab: Deploying Azure Resource Manager templates

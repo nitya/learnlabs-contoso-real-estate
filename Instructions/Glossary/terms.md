@@ -1,5 +1,5 @@
 ---
-type:
+section:
     title: 'Terms & Concepts'
     description: Terminology Used In Contoso Real Estate.
 ---

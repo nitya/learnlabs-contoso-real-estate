@@ -27,18 +27,16 @@ Resources to help self-guided exploration of the [Contoso Real Estate](https://a
 
 ## Live Sessions
 
-Want some instructor guidance into the exercises before you dive in solo? We have you covered! Check out these Learn Live sessions (planned for Sep/Oct 2023) and bookmark the page to revisit recordings later.
-
 {% assign live = site.pages | where_exp:"page", "page.url contains '/Instructions/Live'" %}
-| Description | Session |
+| Description | Learn Live Session |
 | --- | --- | 
 {% for activity in live  %} | {{ activity.session.title }} | [{{ activity.session.date }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
 ## Glossary
 
-The Contoso Real Estate Application may use terms, tools and technologies that are new to you. Check out these Glossary sections to get a brief description of each along with a link for deep dives.
-
 {% assign glossary = site.pages | where_exp:"page", "page.url contains '/Glossary'" %}
-{% for activity in glossary  %} - [{{ activity.type.title }}]({{ site.github.url }}{{ activity.url }}) 
+| Description | Section |
+| --- | --- | 
+{% for activity in live  %} | {{ activity.section.description }} | [{{ activity.section.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}

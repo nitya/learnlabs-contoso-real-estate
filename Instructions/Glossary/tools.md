@@ -1,5 +1,5 @@
 ---
-type:
+section:
     title: 'Developer Tools'
     description: Tools Used In Contoso Real Estate.
 ---
