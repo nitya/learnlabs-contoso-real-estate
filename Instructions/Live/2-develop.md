@@ -1,7 +1,7 @@
 ---
 session:
     date: 21 Sep, 2023
-    title: 'Develop | Deconstruct The Blog & Portal Apps'
+    title: 'Develop 👉🏽 Deconstruct The Blog & Portal Apps'
     description: Learn to deconstruct a complex architecture one scenario at a time. Understand API-first design and micro-frontends usage in this sample.
 ---
 

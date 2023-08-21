@@ -28,8 +28,8 @@ Resources to help self-guided exploration of the [Contoso Real Estate](https://a
 ## Live Sessions
 
 {% assign live = site.pages | where_exp:"page", "page.url contains '/Instructions/Live'" %}
-| Description | Learn Live Session |
-| --- | --- | 
+| Session | Description | Date |
+| --- | --- | ---|
 {% for activity in live  %} | {{ activity.session.title }} | [{{ activity.session.date }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
@@ -38,5 +38,5 @@ Resources to help self-guided exploration of the [Contoso Real Estate](https://a
 {% assign glossary = site.pages | where_exp:"page", "page.url contains '/Glossary'" %}
 | Description | Section |
 | --- | --- | 
-{% for activity in live  %} | {{ activity.section.description }} | [{{ activity.section.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in glossary  %} | {{ activity.section.description }} | [{{ activity.section.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}

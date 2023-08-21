@@ -1,7 +1,7 @@
 ---
 session:
     date: 05 Oct, 2023
-    title: 'Deliver | Deconstruct Testing, Deployment, Optimization workflows'
+    title: 'Deliver 👉🏽 Deconstruct Testing, Deployment, Optimization workflows'
     description: Learn how to deliver a reliable, scalable, cost-effective solution with the help of best-in-class developer tooling.
 ---
 

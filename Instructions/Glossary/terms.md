@@ -1,7 +1,7 @@
 ---
 section:
     title: 'Terms & Concepts'
-    description: Terminology Used In Contoso Real Estate.
+    description: Glossary of core terminology and concepts used in Contoso Real Estate
 ---
 
 

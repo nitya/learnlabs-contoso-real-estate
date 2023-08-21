@@ -1,7 +1,7 @@
 ---
 section:
     title: 'Technologies & Services'
-    description: Technologies Used In Contoso Real Estate.
+    description: Glossary of core technologies and services used in Contoso Real Estate
 ---
 
 # Glossary: Technologies Used

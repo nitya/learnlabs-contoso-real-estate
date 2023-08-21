@@ -1,7 +1,7 @@
 ---
 section:
     title: 'Developer Tools'
-    description: Tools Used In Contoso Real Estate.
+    description: Glossary of core tools and extensions used in Contoso Real Estate
 ---
 
 # Glossary: Tools Used

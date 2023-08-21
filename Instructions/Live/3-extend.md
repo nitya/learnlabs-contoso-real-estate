@@ -1,7 +1,7 @@
 ---
 session:
     date: 28 Sep, 2023
-    title: 'Extend | Deconstruct Auth, Payments, Search Integrations'
+    title: 'Extend 👉🏽 Deconstruct Auth, Payments, Search Integrations'
     description: Learn to extend the solution with scenarios iteratively. Understand how to integrate support for authentication, payments and search seamlessly.
 ---
 
