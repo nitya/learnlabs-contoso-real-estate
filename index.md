@@ -4,9 +4,9 @@ permalink: index.html
 layout: home
 ---
 
-# Content Directory
+# Deconstructing Contoso Real Estate
 
-Hyperlinks to each of the lab exercises and demos are listed below.
+Links to the Glossary, Lab Exercises and Demo Videos used for Learn Labs on exploring [Contoso Real Estate](https://aka.ms/contoso-real-estate/github)
 
 ## Glossary
 
@@ -14,7 +14,7 @@ Hyperlinks to each of the lab exercises and demos are listed below.
 
 | Type | Resource |
 | --- | --- | 
-{% for activity in glossary  %} | {{ activity.type }} | [{{ activity.type.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in glossary  %} | {{ activity.type.description }} | [{{ activity.type.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
 ## Lab Exercises
