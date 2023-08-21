@@ -6,15 +6,24 @@ layout: home
 
 # Deconstructing Contoso Real Estate
 
-Links to the Glossary, Lab Exercises and Demo Videos used for Learn Labs on exploring [Contoso Real Estate](https://aka.ms/contoso-real-estate/github)
+Resources to help self-guided exploration of the [Contoso Real Estate](https://aka.ms/contoso-real-estate/github) reference architecture and samples.
 
 ## Glossary
 
-{% assign glossary = site.pages | where_exp:"page", "page.url contains '/Glossary'" %}
+The Contoso Real Estate Application may use terms, tools and technologies that are new to you. Check out these Glossary sections to get a brief description of each along with a link for deep dives.
 
-| Type | Resource |
+{% assign glossary = site.pages | where_exp:"page", "page.url contains '/Glossary'" %}
+{% for activity in glossary  %} - [{{ activity.type.title }}]({{ site.github.url }}{{ activity.url }}) 👉🏽 {{ activity.type.description }} 
+{% endfor %}
+
+## Learn Live Sessions
+
+Want some instructor guidance into the exercises before you dive in solo? We have you covered! Check out these Learn Live sessions (planned for Sep/Oct 2023) and bookmark the page to revisit recordings later.
+
+{% assign live = site.pages | where_exp:"page", "page.url contains '/Instructions/Live'" %}
+| Description | Session |
 | --- | --- | 
-{% for activity in glossary  %} | {{ activity.type.description }} | [{{ activity.type.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in live  %} - [{{ activity.session.description }}]({{ site.github.url }}{{ activity.url }}) 👉🏽 {{ activity.session.title }} (- {{ activity.session.date }})
 {% endfor %}
 
 ## Lab Exercises
