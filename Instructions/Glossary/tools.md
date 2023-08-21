@@ -1,6 +1,6 @@
 ---
 type:
-    title: 'Glossary 👉🏽 Developer Tools'
+    title: 'Developer Tools'
     description: Tools Used In Contoso Real Estate.
 ---
 

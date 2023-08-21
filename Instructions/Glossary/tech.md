@@ -1,6 +1,6 @@
 ---
 type:
-    title: 'Glossary 👉🏽  Technologies & Services'
+    title: 'Technologies & Services'
     description: Technologies Used In Contoso Real Estate.
 ---
 

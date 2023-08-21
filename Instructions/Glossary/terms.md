@@ -1,6 +1,6 @@
 ---
 type:
-    title: 'Glossary 👉🏽  Terms & Concepts'
+    title: 'Terms & Concepts'
     description: Terminology Used In Contoso Real Estate.
 ---
 
